@@ -1,0 +1,19 @@
+@import "../../../styles/variables";
+
+.tagContainer {
+  color: white;
+  background-color: $rating-color;
+  border-radius: 5px;
+
+  &-small {
+    padding: 5px 10px;
+    margin-right: 4px;
+    font-size: 14px;
+  }
+
+  &-large {
+    padding: 15px 40px;
+    margin-right: 8px;
+    font-size: 20px;
+  }
+}

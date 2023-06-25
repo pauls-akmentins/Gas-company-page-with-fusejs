@@ -1,0 +1,21 @@
+@import "../../../styles/variables";
+
+.btn {
+  padding: 5px 10px;
+  border: 2px solid $rating-color;
+  background-color: white;
+  font-weight: 400;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  box-shadow: 0px -30px 20px white;
+  margin-top: 8px;
+}
+
+.applyRightMargin {
+  margin-right: 16px;
+}
+
+.btn-primary {
+  color: $rating-color;
+}

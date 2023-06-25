@@ -1,0 +1,16 @@
+@import "../../../styles/variables";
+
+.ratingContainer {
+  display: flex;
+  align-items: center;
+}
+
+.ratingCount {
+  font-size: 14px;
+  margin-left: 4px;
+  color: $rating-color;
+}
+
+.largeRating {
+  font-size: 32px;
+}

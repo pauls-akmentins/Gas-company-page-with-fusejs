@@ -1,0 +1,20 @@
+.gridContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrappedGrid {
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 975px) {
+  .gridContainer {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .gridContainer {
+    flex-direction: column;
+  }
+}

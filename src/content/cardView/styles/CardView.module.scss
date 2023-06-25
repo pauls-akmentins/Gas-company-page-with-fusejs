@@ -1,0 +1,64 @@
+@import "../../../styles/variables";
+
+p {
+  margin: 0;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cardInnerContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.cardFormContainer {
+  margin-top: 20px;
+  width: 80%;
+}
+
+.cardInnerForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardLogo {
+  width: 200px;
+}
+
+.cardLogoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardTitleContainer {
+  font-size: 32px;
+  margin: 20px 0 5px;
+  font-weight: 700;
+}
+
+.cardTagsContainer {
+  display: flex;
+}
+
+.cardDetailsContainer {
+  font-size: 20px;
+  margin: 12px 0;
+}
+
+.cardMapContainer {
+  margin-top: 30px;
+  width: 80%;
+}
+
+.cardFormTitle {
+  color: $rating-color;
+  font-size: 32px;
+  margin: 20px 0;
+}
